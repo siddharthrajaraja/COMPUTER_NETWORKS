@@ -43,7 +43,7 @@ if __name__=="__main__":
     
     hamcode=list(input("Enter Hamming Code  : "))
 
-    #hamcode.reverse()
+    hamcode.reverse()
 
     
     red_arr=get_red_bits_array(hamcode)
@@ -77,9 +77,8 @@ if __name__=="__main__":
 
 """
 This is Code for Hamming Code Error Detection and Correction: 
-Enter Hamming Code  : 1010111
-ERROR FOUND AT :  6
-CORRECT HAMMING CODE IS :  ['1', '0', '1', '0', '1', '0', '1']
+Enter Hamming Code  : 10011100101
+ERRORLESS HAMMING CODE
 
 
 """
